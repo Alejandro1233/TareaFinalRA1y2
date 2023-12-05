@@ -1,0 +1,111 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo {
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    color: #A901F1;
+}
+
+.morado {
+    color: #582A72;
+}
+
+body {
+    background-color: #DA99F6;
+}
+
+#album1 {
+    float: left;
+    width: 33.34%;
+    height: 100%;
+    background-color: #DA99F6;
+    text-align: center;
+}
+
+#album2 {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background-color: #DA99F6;
+    text-align: center;
+}
+
+#album3 {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background-color: #DA99F6;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+    color: #A901F1;
+}
+
+#pie {
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    color: #c9955c;
+    clear: both;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(189, 78, 174, 0.226), rgba(114, 114, 114, 0.5)), url("../images/badbunny.webp");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contact {
+    padding: 2rem;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+
+.foot {
+    color: white;
+}
+
+#blanco {
+    color: white;
+}
+
+.video-responsivo{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #album1,
+    #album2,
+    #album3 {
+        width: 100%;
+        display: block;
+    }
+    #video-responsivo{
+        width: 200px;
+        height: 100px;
+    }
+
+}
